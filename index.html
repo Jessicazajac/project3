@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Climate Change Poster</title>
+   <link rel="stylesheet" href="css/style.css">
+   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+</style>
+  <script src="jquery-3.7.1.js"></script>
+  
+</head>
+<body>
+    <h1>Now and then of Climate Change</h1>
+    
+   <div class="carousel-container">
+      <div class="images fade">
+         <img src="media/mexico-before.jpeg">
+         </div>
+         <div class="images fade">
+            <img src="media/mexico-after.jpeg">
+         </div>
+         <div class="images fade">
+            <img src="media/ice-before.jpeg">
+         </div>
+         <div class="images fade">
+            <img src="media/ice-after.jpeg">
+         </div>
+         <div class="images fade">
+            <img src="media/cali-before.jpeg">
+         </div>
+         <div class="images fade">
+            <img src="media/cali-after.jpeg">
+         </div>
+         
+       
+         <a class="previous" onclick="plusSlides(-1)">Before</a>
+         <a class="next" onclick="plusSlides(1)">After</a>
+   </div>
+   <br>
+   
+
+   <div style="text-align:center">
+      <span class="navigation-dot" onclick="currentSlide(1)"></span>
+      <span class="navigation-dot" onclick="currentSlide(2)"></span>
+      <span class="navigation-dot" onclick="currentSlide(3)"></span>
+      <span class="navigation-dot" onclick="currentSlide(4)"></span>
+      <span class="navigation-dot" onclick="currentSlide(5)"></span>
+      <span class="navigation-dot" onclick="currentSlide(6)"></span>
+     
+   </div>
+    
+<br>
+  <button id="toggleInfo">More Info</button>
+
+  <div id="info">
+    <h2>Now and Then of Climate Change</h2>
+    <p>Climate change is a pressing global issue that requires collective action. Let's work together to create a sustainable future.
+        <br><br><br>Situation 1:<b>Hurricane Otis Alters Acapulco, Mexico</b><br>On Oct. 25, 2023, Hurricane Otis knocked over power lines,
+         uprooted trees, and unleashed torrential
+        flooding and landslides as it made landfall in Acapulco, Mexico, as one of the strongest storms in recorded history to hit 
+        the area. Acapulco, home to nearly 1 million people, is at the foot of steep mountains and surrounded by green tropical forests. 
+        Over a week after the category 5 storm made landfall, sediment runoff from excess rainfall that turned surrounding vegetation 
+        brown can still be seen.
+        <br><br>Situation 2:<b>Breakup of Sea Ice in the Amundsen Gulf, Canada</b><br>Each spring, sea ice from the winter months breaks apart
+         and melts as temperatures start getting warmer in the Amundsen Gulf in northern Canada. In May 2023, the sea ice in the eastern 
+         part of the gulf quickly broke up, leaving behind ice chunks. By August, the Amundsen Gulf is usually ice-free.
+         <br><br>Situation 3:<b>Snowy Southern California</b><br>A late-February storm blanketed parts of Southern California in snow, 
+         including much of the San Gabriel Mountains north of Los Angeles, as seen in a satellite image from February 26, 2023. The 
+         storm even brought 2 inches (51 millimeters) of snow to low-elevation areas such as La Crescenta, a suburban community north 
+         of Los Angeles that sits at 2,000 feet (610 meters)
+    </p>
+  </div>
+<br>
+  <form id="opinionForm">
+    <label for="opinionInput">Share your opinion:</label>
+    <input type="text" id="opinionInput" required>
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="js/intro.js"></script>
+
+</body>
+<br><br><br>
+</html>
